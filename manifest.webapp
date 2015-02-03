@@ -1,0 +1,11 @@
+{
+  "name": "mnc mcc",
+  "description": "dummy app",
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "permissions": {
+    "mobilenetwork": {
+      "description": "Redirect based on country code"
+    }
+  }
+}
