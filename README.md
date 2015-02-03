@@ -4,7 +4,7 @@ A library to help you parse the mcc and mnc codes on Firefox OS, since we make b
 ##Usage
 ```html
 <script src="mcc_mnc.js"></script>
-<script>console.log(mnc_mcc());</script>
+<script>console.log(mcc_mnc());</script>
 ```
 
 Returns a possibly empty array of objects with the keys `mcc` and `mnc` whose values are strings, ex:
